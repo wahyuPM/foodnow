@@ -1,0 +1,400 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff9900;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 15px 25px;
+  border-color: #ff9900;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #ffc267;
+  border: 1px solid #ff9900;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff9900;
+  border-color: #ff9900;
+}
+
+.about {
+  margin-top: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/img/bg-title-.svg);
+  min-height: 800px;
+}
+
+.imgresponsive {
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.about .imgresponsive {
+  width: 120%;
+  top: 6vw;
+  box-shadow: 6px 4px 15px grey;
+}
+
+@media (max-width: 991px) {
+  .about .imgresponsive {
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 5vw;
+  }
+}
+
+h2.judul {
+  font-size: 60px;
+  color: #e37a22;
+  font-family: 'Pacifico';
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h2.judul span {
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  h2.judul {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+}
+
+.about h2.judul {
+  margin-left: 2vw;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  .about h2.judul {
+    text-align: center;
+    margin: 40px 0;
+  }
+}
+
+.transparant {
+  background-color: rgba(241,241,241,0.5);
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+  .transparant {
+    padding: 0px 10px 70px 10px;
+    margin-top: 40px;
+  }
+}
+
+p.isi {
+  font-family: 'Open Sans';
+  color: #818181;
+  font-size: 20px;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about p.isi {
+  margin-left: 2.5vw;
+  margin-right: 1.5vw;
+}
+
+.features {
+  margin-top: 100px;
+}
+
+.features .tengah {
+  padding: 50px 10px;
+  height: 400px;
+  transition: 0.5s;
+}
+
+.features .tengah.garis {
+  border-left: 1px solid #717171;
+  border-right: 1px solid #717171;
+}
+
+@media (min-width: 768px) {
+  .features .tengah:hover {
+    background-color: #F9F9F9;
+  }
+}
+
+.features img {
+  height: 85px;
+}
+
+.features span.desc {
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  font-family: 'Open Sans';
+  color: #e37a22;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 200%;
+  text-align: center;
+}
+
+.features p.isi {
+  padding: 0 2vw;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .features p.isi {
+    padding: 0 10vw;
+  }
+}
+
+.works {
+  background-image: url(../../assets/img/bg-title-works.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.works .bg-transparant {
+  padding: 80px 0 0;
+  margin: 0;
+  background-color: rgba(241,241,241,0.5);
+  min-height: 800px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .works .bg-transparant {
+    padding: 40px 0 0;
+  }
+}
+
+.works h2.judul {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .works h2.judul {
+    text-align: left;
+  }
+}
+
+.works h3 {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  color: #818181;
+  margin-bottom: 60px;
+}
+
+.works ul.list-works {
+  width: 100%;
+  max-width: 745px;
+  padding-left: 40px;
+}
+
+@media (max-width: 767px) {
+  .works ul.list-works {
+    padding-left: 0;
+  }
+}
+
+.works ul.list-works li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.works ul.list-works li span.number {
+  background-color: #fff;
+  color: rgb(235, 146, 63);
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  padding: 5px 20px;
+  border: 3px solid rgb(235, 146, 63);
+  border-radius: 50%;
+}
+
+.works ul.list-works li span.number.active {
+  background-color: rgb(235, 146, 63);
+  color: #fff;
+}
+
+.text {
+  font-family: 'Open Sans';
+  color: #818181;
+  font-size: 20px;
+  margin-left: 40px;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .text {
+    margin-left: 20px;
+  }
+}
+
+.works .imgresponsive {
+  bottom: 0;
+  right: 0;
+  max-width: 35%;
+}
+
+@media (max-width: 991px) {
+  .works .imgresponsive {
+    max-width: 80%;
+    position: relative;
+    right: -20vw;
+  }
+}
+
+.dwnld {
+  background-color: rgb(235, 146, 63);
+  margin: 0;
+  min-height: 40vw;
+  position: relative;
+}
+
+.dwnld h2 {
+  font-family: 'Open Sans';
+  color: #fff;
+  font-size: 45px;
+  margin: 7vw 0 2vw;
+}
+
+@media (max-width: 991px) {
+  .dwnld h2 {
+    font-size: 40px;
+  }
+}
+
+.dwnld p.isi {
+  color: #fff;
+}
+
+.dwnld .imgresponsive {
+  width: 45%;
+  position: relative;
+  margin-top: 3vw;
+}
+
+@media (max-width: 767px) {
+  .dwnld .imgresponsive {
+    width: 60%;
+    margin: 30px 0;
+  }
+}
+
+.dwnld .imgresponsive.bkg {
+  position: absolute;
+  top: 8vw;
+  margin: 0;
+  left: 8vw;
+  width: 38%;
+}
+
+@media (max-width: 991px) {
+  .dwnld .imgresponsive.bkg {
+    position: relative;
+    width: 80%;
+    left: 10vw;
+    top: 10vw;
+  }
+}
+
+.partner {
+  margin-top: 18vw;
+  min-height: 400px;
+}
+
+.partner p.isi {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 3.5vw 3rem;
+  line-height: 3rem;
+}
+
+.partner span.more {
+  text-align: center;
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: bold;
+  color: #626262;
+  letter-spacing: 3px;
+}
+
+.partner hr {
+  margin: 3rem 0;
+}
+
+.footer {
+  min-height: 450px;
+  margin-top: 50px;
+}
+
+.footer span.area {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: bold;
+  color: #626262;
+  text-transform: capitalize;
+  margin-bottom: 3vw;
+  display: block;
+}
+
+.footer hr {
+  margin: 3rem 0;
+}
+
+.footer span.brand {
+  font-family: 'Pacifico';
+  font-size: 40px;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .footer span.brand {
+    margin-bottom: 37px;
+  }
+}
+
+.footer i {
+  font-size: 20px;
+}
+
+.footer p.copyright {
+  margin: 0 0 0 15px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: #818181;
+}
+
+.footer p.copyright.sosmed {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .footer p.copyright.sosmed {
+    margin: 55px 0;
+  }
+}
+
+.footer img {
+  margin-left: 1vw;
+  width: 15%;
+}
+
