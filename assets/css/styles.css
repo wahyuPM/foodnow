@@ -29,7 +29,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../../assets/img/bg-title-.svg);
-  min-height: 800px;
+  min-height: 100vh;
 }
 
 .imgresponsive {
@@ -113,6 +113,7 @@ p.isi {
 
 .features {
   margin-top: 100px;
+  min-height: 100vh;
 }
 
 .features .tengah {
