@@ -1,3 +1,3 @@
 # foodnow
-test project
+template landing page
 by wahyuPM
